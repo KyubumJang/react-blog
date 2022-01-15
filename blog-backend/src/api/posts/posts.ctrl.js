@@ -44,7 +44,9 @@ exports.read = ctx => {
         ctx.body = {
             message: '포스트가 존재하지 않습니다.',
         };
+        return;
     };
+    ctx.body = post;
 };
 
 /* 특정 포스트 제거
@@ -68,7 +70,7 @@ exports.remove = ctx => {
 };
 
 /* 포스트 수정(교체)
-PUT /api/posts
+PUT /api/posts/:id
 { title, body }
 */
 exports.replace = ctx => {
