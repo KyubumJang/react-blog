@@ -13,6 +13,9 @@
 [] api 생성
 [] postman으로 동작 확인 완료
 - 로그인 api
+[] 로그인
+[] 로그아웃
+[] 사용자
 
 ## react-blog-frontend
 - CRA로 구성 예정
