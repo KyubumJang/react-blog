@@ -1,9 +1,10 @@
 # react-blog back-end
 
-- êµ¬ì„± í™˜ê²½: node.js
-- ì‚¬ìš© ì–¸ì–´: javascript
+- êµ¬ì„± ?™˜ê²?: node.js
+- ?‚¬?š© ?–¸?–´: javascript
 - DB: MongoDB
-- í”„ë ˆì„ì›Œí¬ ë° ë¼ì´ë¸ŒëŸ¬ë¦¬
+    - MongoDB¿¡ ¿¬°á Áß
+- ?”„? ˆ?„?›Œ?¬ ë°? ?¼?´ë¸ŒëŸ¬ë¦?
     - mongoose
     - koa
     - koa-router
