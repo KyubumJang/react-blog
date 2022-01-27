@@ -1,13 +1,13 @@
 # react-blog back-end
 
-- 援ъ꽦 ?솚寃?: node.js
-- ?궗?슜 ?뼵?뼱: javascript
+- 구성 환경: node.js
+- 사용 언어: javascript
 - DB: MongoDB
-    - MongoDB에 연결 중
-- ?봽?젅?엫?썙?겕 諛? ?씪?씠釉뚮윭由?
-    - mongoose
-    - koa
-    - koa-router
-    - bodyParser
-    - prettier
-    - ESLint
+    - DB에 연결 중
+- 프레임워크 및 라이브러리
+- mongoose
+- koa
+- koa-router
+- bodyParser
+- prettier
+- ESLin
