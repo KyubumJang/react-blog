@@ -1,6 +1,6 @@
 import Post from '../../models/post';
 import mongoose from 'mongoose';
-import Joi from 'joi'
+import Joi from 'joi';
 
 const { ObjectId } = mongoose.Types;
 
@@ -11,15 +11,15 @@ export const checkObjectId = (ctx, next) => {
         return;
     }
     return next();
-}
+};
 
-export const write = async ctx => {
+export const write = async (ctx) => {
     const schema = Joi.object().keys({
         // 객체가 다음 필드를 가지고 있음을 검증
         title: Joi.string().required(), // required()가 있을 시 필수
-        body: Joi.string().required(), 
+        body: Joi.string().required(),
         tags: Joi.array().items(Joi.string()).required(),
-    })
+    });
     //검증 후 검증 실패인 경우 에러 처리
     const result = schema.validate(ctx.request.body);
     if (result.error) {
@@ -33,67 +33,69 @@ export const write = async ctx => {
     try {
         await post.save();
         ctx.body = post;
-    } catch(e) {
-        ctx.throw(500, e)
+    } catch (e) {
+        ctx.throw(500, e);
     }
 };
 
-export const list = async ctx => {
+export const list = async (ctx) => {
     try {
         const posts = await Post.find().exec();
         ctx.body = posts;
-    } catch(e) {
-        ctx.throw(500, e)
+    } catch (e) {
+        ctx.throw(500, e);
     }
 };
 
-export const read = async ctx => {
+export const read = async (ctx) => {
     const { id } = ctx.params;
     try {
         const post = await Post.findById(id).exec();
-        if(!post) {
+        if (!post) {
             ctx.status = 404; // Not found
             return;
         }
-        ctx.body = post
-    } catch(e) {
-        ctx.throw(500,e)
+        ctx.body = post;
+    } catch (e) {
+        ctx.throw(500, e);
     }
 };
 
-export const remove = async ctx => {
-    const {id} = ctx.params;
+export const remove = async (ctx) => {
+    const { id } = ctx.params;
     try {
         await Post.findByIdAndRemove(id).exec();
         ctx.status = 204; // No Content (성공했지만 응답할 데이터 없음)
-    } catch(e) {
-        ctx.throw(500, e)
+    } catch (e) {
+        ctx.throw(500, e);
     }
 };
 
-export const update = async ctx => {
-    const {id} = ctx.params;
+export const update = async (ctx) => {
+    const { id } = ctx.params;
     const schema = Joi.object().keys({
         title: Joi.string(),
         body: Joi.string(),
         tags: Joi.array().items(Joi.string()),
-    })
+    });
     const result = schema.validate(ctx.request.body);
     if (result.error) {
         ctx.status = 400; //Bad Request
         ctx.body = result.error;
         return;
     }
-    
+
     try {
         //이 값을 설정하면 업데이트 된 데이터 반환, false일 경우 업데이트 되기 전 데이터 반환)
-        const post = await Post.findByIdAndUpdate(id, ctx.request.body, { new: true }).exec();
-        if(!post) {
+        const post = await Post.findByIdAndUpdate(id, ctx.request.body, {
+            new: true,
+        }).exec();
+        if (!post) {
             ctx.status = 404;
             return;
         }
         ctx.body = post;
-    } catch(e) {
+    } catch (e) {
         ctx.throw(500, e);
     }
 };
