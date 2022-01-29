@@ -1,13 +1,13 @@
 # react-blog back-end
 
-- ±¸¼º È¯°æ: node.js
-- »ç¿ë ¾ð¾î: javascript
-- DB: MongoDB
-    - DB¿¡ ¿¬°á Áß
-- ÇÁ·¹ÀÓ¿öÅ© ¹× ¶óÀÌºê·¯¸®
-- mongoose
-- koa
-- koa-router
-- bodyParser
-- prettier
-- ESLin
+-   ï¿½ï¿½ï¿½ï¿½ È¯ï¿½ï¿½: node.js
+-   ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½: javascript
+-   DB: MongoDB
+    -   DBï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+-   ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½Å© ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºê·¯ï¿½ï¿½
+-   mongoose
+-   koa
+-   koa-router
+-   bodyParser
+-   prettier
+-   ESLint
