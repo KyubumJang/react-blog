@@ -1,21 +1,23 @@
 # react-blog
 
-## ê°œë°œ í™˜ê²½
+## ê°œë°œ ?™˜ê²?
 - IDE: VSCode
-- ì‚¬ìš© ì–¸ì–´: JavaScript
-- ì‚¬ìš© ë¼ì´ë¸ŒëŸ¬ë¦¬ ë° í”„ë ˆì„ì›Œí¬
-    - ë°±ì—”ë“œ: node.js, koa, koa-router, koa-bodyparser
-    - í”„ëŸ°íŠ¸ì—”ë“œ: react.js
+- ?‚¬?š© ?–¸?–´: JavaScript
+- ?‚¬?š© ?¼?´ë¸ŒëŸ¬ë¦? ë°? ?”„? ˆ?„?›Œ?¬
+    - ë°±ì—”?“œ: node.js, koa, koa-router, koa-bodyparser
+    - ?”„?Ÿ°?Š¸?—”?“œ: react.js
 
 
-## react-blog-backend êµ¬ì„± ì™„ë£Œ
-- post ê´€ë ¨ ì‘ì„± ëª¨ë‘ ì™„ë£Œ
-[] api ìƒì„±
-[] postmanìœ¼ë¡œ ë™ì‘ í™•ì¸ ì™„ë£Œ
-- ë¡œê·¸ì¸ api
-[] ë¡œê·¸ì¸
-[] ë¡œê·¸ì•„ì›ƒ
-[] ì‚¬ìš©ì
+## react-blog-backend êµ¬ì„± ?™„ë£?
+- post ê´?? ¨ ?‘?„± ëª¨ë‘ ?™„ë£?
+[] api ?ƒ?„±
+[] postman?œ¼ë¡? ?™?‘ ?™•?¸ ?™„ë£?
+- ë¡œê·¸?¸ api
+[] ë¡œê·¸?¸
+[] ë¡œê·¸?•„?›ƒ
+[] ?‚¬?š©?
 
 ## react-blog-frontend
-- CRAë¡œ êµ¬ì„± ì˜ˆì •
+- CRAë¡? êµ¬ì„± ?˜ˆ? •
+- Langauge: TypeScript
+- Library: react-router, redux
