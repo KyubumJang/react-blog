@@ -11,3 +11,4 @@
 -   bodyParser
 -   prettier
 -   ESLint
+-   prettier
