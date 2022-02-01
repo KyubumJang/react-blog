@@ -20,4 +20,4 @@
 ## react-blog-frontend
 - CRAë¡? êµ¬ì„± ?˜ˆ? •
 - Langauge: TypeScript
-- Library: react-router, redux
+- Library: react-router, redux, eslint
