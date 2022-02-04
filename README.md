@@ -1,26 +1,26 @@
 # react-blog
 
-## ê°œë°œ ?™˜ê²?
+## åª›ì’•ì»» ?ì†šå¯ƒ?
 
 -   IDE: VSCode
--   ?‚¬?š© ?–¸?–´: JavaScript
--   ?‚¬?š© ?¼?´ë¸ŒëŸ¬ë¦? ë°? ?”„? ˆ?„?›Œ?¬
-    -   ë°±ì—”?“œ: node.js, koa, koa-router, koa-bodyparser
-    -   ?”„?Ÿ°?Š¸?—”?“œ: react.js
+-   ?ê¶—?ìŠœ ?ë¼µ?ë¼±: JavaScript
+-   ?ê¶—?ìŠœ ?ì”ª?ì” é‡‰ëš®ìœ­ç”±? è«›? ?ë´½?ì …?ì—«?ì™?ê²•
+    -   è«›ê¹†ë¿?ë±¶: node.js, koa, koa-router, koa-bodyparser
+    -   ?ë´½?ìœ´?ë“ƒ?ë¿?ë±¶: react.js
 
-## react-blog-backend êµ ¬ì„± ?™„ë£?
+## react-blog-backend æ´ ÑŠê½¦ ?ì…¿çŒ·?
 
--   post ê´?? ¨ ?‘?„± ëª ¨ë‘ ?™„ë£?
-    [] api ?ƒ?„±
-    [] postman?œ¼ë¡? ?™?‘ ?™•?¸ ?™„ë£?
--   ë¡œê·¸?¸ api
-    [] ë¡œê·¸?¸
-    [] ë¡œê·¸?•„?›ƒ
-    [] ?‚¬?š©?
+-   post æ„¿??ì ´ ?ì˜‰?ê½¦ ï§ â‘¤ëª¢ ?ì…¿çŒ·?
+    [] api ?ê¹®?ê½¦
+    [] postman?ì‘æ¿¡? ?ë£?ì˜‰ ?ì†—?ì”¤ ?ì…¿çŒ·?
+-   æ¿¡ì’“ë ‡?ì”¤ api
+    [] æ¿¡ì’“ë ‡?ì”¤
+    [] æ¿¡ì’“ë ‡?ë¸˜?ì
+    [] ?ê¶—?ìŠœ?ì˜„
 
 ## react-blog-frontend
 
--   CRA ë¡? êµ ¬ì„± ?˜ˆ? •
+-   CRA æ¿¡? æ´ ÑŠê½¦ ?ì‚?ì ™
 -   Langauge: TypeScript
 -   Library: react-router, redux, eslint, prettier
--   JWT token
+-   JWT token:: ì¸ì¦ ê´€ë ¨ ì ìš©í•´ë³¼ ì˜ˆì •
