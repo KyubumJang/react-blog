@@ -23,4 +23,4 @@
 -   CRA 濡? 援 ъ꽦 ?삁?젙
 -   Langauge: TypeScript
 -   Library: react-router, redux, eslint, prettier
--   JWT token:: 인증 관련 적용해볼 예정
+-   JWT token: 보안 인증 적용
