@@ -24,3 +24,4 @@
 -   Langauge: TypeScript
 -   Library: react-router, redux, eslint, prettier
 -   JWT token: 보안 인증 적용
+-   서버사이드 렌더링 적용 예정
