@@ -1,5 +1,6 @@
 import Router from 'koa-router';
 import posts from './posts';
+import auth from './auth';
 
 const api = new Router();
 
@@ -8,6 +9,6 @@ api.get('/test', (ctx) => {
 });
 
 api.use('/posts', posts.routes());
-// 라우터 내보내기
+api.use('/auth', auth.routes());
 
 module.exports = api;
