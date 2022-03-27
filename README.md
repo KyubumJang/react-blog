@@ -44,3 +44,5 @@
 - programmers Day3
 - programmers Day4
 - programmers Day5
+- programmers Day6
+- programmers Day7
