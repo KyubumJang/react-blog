@@ -50,3 +50,4 @@
 - programmers Day9 + 함수형프로그래밍
 - programmers Day10 + 함수형프로그래밍
 - programmers Day11 + 함수형프로그래밍
+- programmers Day12 + 함수형프로그래밍
