@@ -53,3 +53,5 @@
 - programmers Day12 + 함수형프로그래밍
 - programmers Day13 + 함수형프로그래밍
 - programmers Day14 + 함수형프로그래밍
+- programmers Day15 + 함수형프로그래밍
+- programmers Day16 + 함수형프로그래밍
