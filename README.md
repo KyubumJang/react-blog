@@ -58,3 +58,5 @@
 - programmers Day16: Notion 클론 코딩
 - programmers Day17: Notion 클론 코딩
 - programmers Day18: Notion 클론 코딩
+- programmers Day19: Notion 클론 코딩
+- programmers Day20: Notion 클론 코딩
